@@ -27,7 +27,7 @@
 				<h2>REGISTER</h2>
 				<h6>As Customer</h6>
 				
-				<form action="loginController.php" method="POST">
+				<form action="registerController.php" method="POST">
 					<div class="form-group">
 						<label for="full-name">Full Name<span class="red-text">*</span></label>
 						<input type="text" class="form-control" name="full-name" id="full-name" placeholder="Ex: John Doe">							
