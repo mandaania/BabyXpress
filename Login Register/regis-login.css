@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.iconify {
+  font-size: 10rem;
+  color: white;
+  opacity: 45%;
+  
+}
+.col-sm-6{
+	padding: 10px;
+}
+.left-text{
+	text-align: center;
+}
+h1{
+	font-size: 2.5 rem;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+.red-text{
+	color: red;
+}
+button[type="submit"] {
+	font-weight: bold;
+	width:fit-content;
+	height: fit-content;
+	display: block;
+	background-color: #A7BBC7;
+	color: #000000;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-size: 10px;
+	margin: 0 auto;
+	margin-top: 8px;
+	text-align: center;
+}
+
+button[type="submit"]:hover {
+	background-color: #1a252f;
+}
+input[type="text"],
+input[type="confirmed-password"],
+input[type="password"] {
+	padding: 8px;
+	border-radius: 5px;
+	background: #E1E5EA;
+	border: none;
+	margin: 0px;
+	color: #A7BBC7;
+}
