@@ -26,7 +26,7 @@
 			<div class="col-sm-6" style="background-color: #fff;">
 				<h2>REGISTER</h2>
 				
-				<form action="loginController.php" method="POST">
+				<form action="registerController.php" method="POST">
 					<div class="form-group">
 						<label for="username">Username<span class="red-text">*</span></label>
 						<input type="text" class="form-control" name="username" id="username" placeholder="Ex: harrypotter123">							
