@@ -1,17 +1,39 @@
-body {
+<<<<<<< HEAD
+*{
   font-family: 'Open Sans', sans-serif;
 }
-.iconify {
-  font-size: 10rem;
-  color: white;
-  opacity: 45%;
+footer{
+	text-align: center;
+}
+.img-fluid{
+	size: 1050%;
+	color: white;
+	opacity: 45%;
+	padding: 0%;
   
 }
-.col-sm-6{
-	padding: 10px;
+.iconify {
+  font-size: 1050%;
+  color: white;
+  opacity: 45%;
+  padding: 0%;
+  
 }
+.icon1{
+	margin-top: auto;
+}
+.icon2{
+	margin-bottom: 0px;
+}
+
 .left-text{
 	text-align: center;
+	margin:10%;
+
+}
+.col-sm-6{
+	padding: 20px;
+	margin: auto;
 }
 h1{
 	font-size: 2.5 rem;
@@ -22,6 +44,7 @@ h1{
 .red-text{
 	color: red;
 }
+
 button[type="submit"] {
 	font-weight: bold;
 	width:fit-content;
@@ -41,9 +64,11 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 	background-color: #1a252f;
+	color: #A7BBC7;
 }
+
 input[type="text"],
-input[type="confirmed-password"],
+input[type="email"],
 input[type="password"] {
 	padding: 8px;
 	border-radius: 5px;
@@ -51,4 +76,99 @@ input[type="password"] {
 	border: none;
 	margin: 0px;
 	color: #A7BBC7;
+}
+.form-select{
+	width: fit-content;
+	padding: 10px 15px;
+	margin: 8px 0;
+	border-radius: 5px;
+	background: #E1E5EA;
+	text-align: left;
+=======
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+footer{
+	text-align: center;
+}
+.img-fluid{
+	size: 1050%;
+	color: white;
+	opacity: 45%;
+	padding: 0%;
+  
+}
+.iconify {
+  font-size: 1050%;
+  color: white;
+  opacity: 45%;
+  padding: 0%;
+  
+}
+.icon1{
+	margin-top: auto;
+}
+.icon2{
+	margin-bottom: 0px;
+}
+
+.left-text{
+	text-align: center;
+	margin:10%;
+
+}
+.col-sm-6{
+	padding: 20px;
+	margin: auto;
+}
+h1{
+	font-size: 2.5 rem;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+.red-text{
+	color: red;
+}
+
+button[type="submit"] {
+	font-weight: bold;
+	width:fit-content;
+	height: fit-content;
+	display: block;
+	background-color: #A7BBC7;
+	color: #000000;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-size: 10px;
+	margin: 0 auto;
+	margin-top: 8px;
+	text-align: center;
+}
+
+button[type="submit"]:hover {
+	background-color: #1a252f;
+	color: #A7BBC7;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 8px;
+	border-radius: 5px;
+	background: #E1E5EA;
+	border: none;
+	margin: 0px;
+	color: #A7BBC7;
+}
+.form-select{
+	width: fit-content;
+	padding: 10px 15px;
+	margin: 8px 0;
+	border-radius: 5px;
+	background: #E1E5EA;
+	text-align: left;
+>>>>>>> 4b5fa7d33a992463dea8d277bf95583229678b77
 }
