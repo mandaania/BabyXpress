@@ -28,6 +28,7 @@
 // $mysqli->close();
 ?>
 
+<?php include("../../html/NavBar/navbar-my-requests.php")?>
 <!DOCTYPE html>
 <html>
     <head>
