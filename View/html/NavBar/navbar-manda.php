@@ -21,17 +21,17 @@
           </ul>
         </li>
         <li>
-          <!-- <form action="" class="mt-2">
+          <form action="" class="mt-2">
             <input type="text" placeholder="Search..." class="align-bottom ms-5 px-3 search" size="110">
             <button class="p-0 search-btn"><iconify-icon icon="material-symbols:filter-alt" width="22"></iconify-icon></button>
-          </form> -->
+          </form>
           
         </li>
       </ul>
 
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <button class="btn btn-outline-dark btn-sm log-out px-3 me-2">Log Out</button>
+          <a href="logout.php" class="btn btn-outline-dark btn-sm log-out px-3 me-2"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
         </li>
       </ul>
     </div>

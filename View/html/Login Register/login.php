@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Login Form</title>
-    <link rel="stylesheet" type="text/css" href="regis-login.css">
+    <link rel="stylesheet" type="text/css" href="../../css/regis-login.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -14,7 +14,7 @@
 		  <div class="row">
 			  <div class="col-sm-6" style="background-color: #DA7F8F;">
 				  <div class="icon2">
-					  <img src="babyfeet.png" class="img-fluid">
+					  <img src="../../resources/babyfeet.png" class="img-fluid">
 				  </div>				
 				  
           <div class="left-text">

@@ -32,8 +32,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../../../css/My Requests/my-requests.css">
-        <link rel="stylesheet" href="../../../../css/NavBar/navbar-my-requests.css">
+        <link rel="stylesheet" href="../../css/my-requests.css">
+        <link rel="stylesheet" href="../../css/navbar-my-requests.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
         <title>My Requests</title>
     </head>

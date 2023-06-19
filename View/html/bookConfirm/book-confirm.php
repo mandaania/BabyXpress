@@ -31,7 +31,7 @@ $mysqli->close();
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="book-confirm.css">
+        <link rel="stylesheet" href="../../css/book-confirm.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
         <title>Booking Confirmation</title>
     </head>
