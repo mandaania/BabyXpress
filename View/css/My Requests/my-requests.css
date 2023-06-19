@@ -7,3 +7,7 @@ button[class="btn btn-light"] {
     background-color: #D9D9D9;
     font-weight: bold;
 }
+
+.container-xl {
+    background-color: #E1E5EA;
+}
