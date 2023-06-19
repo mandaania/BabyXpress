@@ -1,0 +1,49 @@
+:root{
+    --abu: #FAF3F3;
+    --pink: #DA7F8F;
+    --biru-muda: #E1E5EA;
+    --biru-tua: #A7BBC7;
+}
+
+/* NAVBAR */
+nav{
+    background-color: var(--pink);
+    max-width: 100%;
+}
+
+.dropdown-menu{
+    background-color: var(--pink);
+}
+
+.dropdown-item{
+    font-family: "Julius Sans One", serif;
+    font-weight: bold;
+}
+
+.dropdown-item:hover{
+    background-color: var(--abu);
+    transition: 0.4s;
+}
+
+.search{
+    border-radius: 15px;
+    background-color: var(--biru-muda);
+    border-width: 1px;
+    font-family: "Julius Sans One", serif;
+    font-weight: bold;
+}
+
+.search-btn{
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.log-out{
+    background-color: var(--biru-tua);
+    font-family: "Kaisei Decol", serif;
+    font-weight: bold;
+}
+.log-out:hover{
+    background-color: var(--biru-muda);
+    color: black;
+}
