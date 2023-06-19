@@ -1,29 +1,28 @@
 <?php
-require_once 'User.php';
-$database_host = 'localhost';
-$database_name = 'dbbabyxpress';
-$database_user = 'root';
-$database_password = '';
-
-try{
-    $db = new PDO("mysql:host={$database_host};dbname={$database_name}", $database_user, $database_password);
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $userObj = new User($db);
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    //echo "Username:".$username;
-    //echo "Password:".$password;
-    include_once("User.php");
-    
-
-    $resultLogin = $userObj->doLogin($username,$password);
-    if($resultLogin == false){
-        header("Location: login.php");
-    }
-    else{
-        header("Location: dashboard.php");
-    }
-}catch(PDOException $e){
-    echo 'connection error: ' . $e->getMessage();
+//start session
+session_start();
+ //require ama include apa bedanya
+include_once('../Model/LoginRegister/User.php');
+ 
+$user = new User();
+ 
+if(isset($_POST['login'])){
+	$email = $user->escape_string($_POST['email']);
+	$password = $user->escape_string($_POST['password']);
+ 
+	$auth = $user->check_login($email, $password);
+ 
+	if(!$auth){
+		$_SESSION['message'] = 'Invalid email or password';
+    	header('location:login.php');
+	}
+	else{
+		$_SESSION['user'] = $auth;
+		header('location:home.php');
+	}
+}
+else{
+	$_SESSION['message'] = 'You need to login first';
+	header('location:login.php');
 }
 ?>

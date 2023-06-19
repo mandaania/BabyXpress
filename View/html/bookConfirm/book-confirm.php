@@ -1,8 +1,8 @@
 <?php
-$localhost = 'DESKTOP-FGQRAI2'
-$user = 'root'
-$pass = 'root'
-$db = 'dbbabyxpress'
+$localhost = 'localhost';
+$user = 'root';
+$pass = '';
+$db = 'dbbabyxpress';
 
 // mysqli instance
 $mysqli = new mysqli($localhost, $user, $pass, $db);
@@ -13,6 +13,8 @@ if ($mysqli->connect_error) {
 }
 
 $query = "SELECT name, profile_pic FROM user";
+
+$pdo = new PDO('mysql:host=localhost;dbname=dbbabyxpress', 'root', '');
 
 $result = $pdo->query($query);
 $cust = $result->fetchAll(PDO::FETCH_ASSOC);

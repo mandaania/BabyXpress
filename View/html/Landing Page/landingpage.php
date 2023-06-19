@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +11,7 @@
 <body>
   <header>
     <h1>BabyXpress</h1>
-    <img src="logobxp.png" alt="logo BabyXpress" width="120" height="120">
+    <img src="../../resources/logobxp.png" alt="logo BabyXpress" width="120" height="120">
   </header>
     <nav>
         <hr style="width:100%" />
@@ -27,8 +29,9 @@
       <h1>Welcome to BabyXpress!</h1>
       <p>Book a reliable babysitter for your little ones with ease.</p>
       <div class="auth-buttons">
-        <button class="register-button">Register</button>
-        <button class="login-button">Login</button>
+        <button class="register-button" onclick="window.location.href = 'register.php';">Register</button>
+        <button class="login-button" onclick="window.location.href = 'login.php';">Login</button>
+        
       </div>
     </section>
     <section id="about">
