@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once '../Model/LoginRegister/User.php';
+	// require_once '../Model/LoginRegister/User.php';
     // user.php
     // ../Model/LoginRegister/User.php
     require_once 'DbConnection.php';
