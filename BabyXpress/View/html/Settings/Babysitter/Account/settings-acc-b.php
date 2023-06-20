@@ -60,7 +60,7 @@
                         <form action="loginController.php" method="POST">
                             <!-- profile picture -->
                             <div id="profile-picture" style="width: 65px; height: 65px; border-radius: 50%; text-align: center; background-color:#A7BBC7; background-repeat: no-repeat; background-position: center; background-size: cover;">
-                                <img id="profileImage" src="Default_pfp.svg.png" style="text-align: center; min-width: 60px; max-width: 60px; min-height: 60px; max-height: 60px; padding: top 2px;"/>
+                                <img id="profileImage" src="../../../../resources/Default_pfp.svg.png" style="text-align: center; min-width: 60px; max-width: 60px; min-height: 60px; max-height: 60px; padding: top 2px;"/>
                             </div>
                             <!-- <input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="" capture> -->
                             <button type="submit" class="change-profile">Change Profile</button>
