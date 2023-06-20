@@ -29,8 +29,8 @@
       <h1>Welcome to BabyXpress!</h1>
       <p>Book a reliable babysitter for your little ones with ease.</p>
       <div class="auth-buttons">
-        <button class="register-button" onclick="window.location.href = 'register.php';">Register</button>
-        <button class="login-button" onclick="window.location.href = 'login.php';">Login</button>
+        <button class="register-button" onclick="window.location.href = '../LoginRegister/register.php';">Register</button>
+        <button class="login-button" onclick="window.location.href = '../LoginRegister/login.php';">Login</button>
         
       </div>
     </section>
