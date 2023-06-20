@@ -1,0 +1,49 @@
+:root{
+    --abu: #FAF3F3;
+    --pink: #DA7F8F;
+    --biru-muda: #E1E5EA;
+    --biru-tua: #A7BBC7;
+}
+
+/* MENU */
+#profile{
+    background-color: var(--abu);
+    height: 100vh;
+}
+
+.buletan{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    background-color: var(--biru-tua);
+}
+
+.luar{
+    background-color: var(--biru-muda);
+    border-radius: 15px;
+}
+
+.kotak{
+    top: 160px;
+    position: absolute;
+    background-color: var(--pink);
+    border-radius: 15px;
+}
+
+.wrapper span{
+    font-family: "Inter", serif;
+    font-size: 24px;
+}
+
+.wrapper a{
+    text-decoration: none;
+}
+
+.garis{
+    border-top: 1px solid black;
+    width: 180px;
+}
+
+a:link, a:visited, a:active{
+    color: black;
+}
