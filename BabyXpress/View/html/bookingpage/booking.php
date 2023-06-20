@@ -36,7 +36,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <!-- <button class="btn btn-outline-dark btn-sm log-out px-3 me-2">Log Out</button> -->
-                        <a href="logout.php" class="btn btn-outline-dark btn-sm log-out px-3 me-2"><button class="btn btn-outline-dark btn-sm log-out px-3 me-2"> Logout</button></a>
+                        <a href="../LoginRegister/logout.php" class="btn btn-outline-dark btn-sm log-out px-3 me-2"><button class="btn btn-outline-dark btn-sm log-out px-3 me-2"> Logout</button></a>
                     </li>
                 </ul>
             </div>
