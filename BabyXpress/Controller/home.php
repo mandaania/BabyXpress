@@ -155,7 +155,7 @@ $row = $user->details($sql);
 			</div>
 			<div class="column" style="background-color: #fff; display: grid; place-items: center;">
 				<i class="iconify my-icontengah" data-icon="mdi:clipboard-text-history"></i>
-				<a href="history.php" style="font-size: 40px;" class="button"></span> HISTORY</a>
+				<a href="../View/html/history.php" style="font-size: 40px;" class="button"></span> HISTORY</a>
 				<!-- <p style="font-size: 40px;">HISTORY</p> -->
 			</div>
 			<div class="column" style="background-color: #fff; display: grid; place-items: center;">
