@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #DA7F8F;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+  }
+
+  /* header h1 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+  } */
+  
+  nav ul {
+    background-color: #DA7F8F;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    /* border-top: 1px solid #fff; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .auth-buttons {
+    display: flex;
+  }
+
+  .register-button {
+    background-color: #A7BBC7;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .login-button {
+    background-color: #A7BBC7;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main section {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg,transparent 14%, #E1E5EA 15%, #E1E5EA 20%, transparent 21%, transparent 79%, #E1E5EA  80%, #E1E5EA 85%, transparent 86%),linear-gradient(135deg,transparent 14%, #E1E5EA 15%, #E1E5EA 20%, transparent 21%, transparent 79%, #E1E5EA  80%, #E1E5EA 85%, transparent 86%), radial-gradient(transparent 14%, #E1E5EA 15%, #E1E5EA 25%, transparent 26%);
+    background-size: 3em 3em;
+    background-color: #FAF3F3;
+    /* opacity: 0.8 */
+  }
+  
+  main section h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  main section h2 {
+    font-family: sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main section h3 {
+    font-family: sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main section h4 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main section h5 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #DA7F8F;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  main section h6 {
+    font-family: sans-serif;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  main section p {
+    font-family: sans-serif;
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    font-family: sans-serif;
+    /* padding-left: 50%; */
+    text-align: center;
+  }
+  
+  main section ul {
+        list-style: none;
+        font-size: 21px;
+        margin-bottom: 20px;
+        }
+        
+        main section li {
+        font-family: sans-serif;
+        font-size: 21px;
+        margin-bottom: 10px;
+        }
+        
+        form label {
+        font-family: sans-serif;
+        font-size: 21px;
+        display: block;
+        margin-bottom: 10px;
+        }
+        
+        form input,
+        form textarea {
+        font-family: sans-serif;
+        font-size: 21px;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        border: 2px solid #333;
+        border-radius: 5px;
+        }
+        
+        form button {
+        font-family: sans-serif;
+        font-size: 21px;
+        padding: 10px 20px;
+        background-color: #A7BBC7;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    

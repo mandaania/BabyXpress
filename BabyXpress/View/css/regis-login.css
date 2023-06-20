@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 0px;
+    box-sizing: border-box;
+    /* margin: 0%; */
+}
+
+.left-column {
+    /* margin: 0%; */
+    position: relative;
+    background-color: #DA7F8F;
+}
+.right-column{
+    /* margin: 0%; */
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAF3F3;
+    font-weight: bold;
+}
+.register{
+    margin-bottom: 25px;
+}
+.image {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+    margin: 0%;
+    color: white;
+    opacity: 45%;
+
+}
+
+.text {
+    text-align: center;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.welcome-text {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 125%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding: 0;
+}
+
+.babyxpress-text {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px;
+    font-size: 330%;
+    padding: 0;
+}
+
+.gotchu-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    position: relative;
+    font-size: 1100%;
+    margin: 0%;
+    bottom: 10px;
+    left: 10px;
+    bottom: 0;
+    color: white;
+    opacity: 45%;
+
+}
+.input{
+    width: 100%;
+    background-color: #E1E5EA;
+    color:#A7BBC7;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.label{
+    padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .column {
+        flex: 100%;
+    }
+}
+.redtext{
+    color: red;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #A7BBC7;
+}
+.registeras{
+    background-color: #E1E5EA;
+    color:#A7BBC7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 104%;
+}
+.centerbutton{
+    margin: 20PX;
+    display: flex;
+    justify-content: center;
+}
+/* .centerbutton:hover {
+background-color: red;
+color: white;
+} */
+
